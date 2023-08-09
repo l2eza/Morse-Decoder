@@ -57,6 +57,7 @@ for element in englishText {
   } 
 }
 print (morseText)
+////Storing a Decoded Message
 var decodedMessage = ""
 var morseCodeArray = [String]()
 var currMorse: String = ""

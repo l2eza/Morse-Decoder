@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morse Code Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Morse Code Converter</h1>
+  
+    <label for="englishText">Enter English Text:</label>
+    <input type="text" id="englishText">
+    <button onclick="encode()">Encode</button>
+  
+    <label for="morseCode">Enter Morse Code:</label>
+    <input type="text" id="morseCode">
+    <button onclick="decode()">Decode</button>
+  
+    <h2>Encoded/Decoded Message:</h2>
+    <p id="result"></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
